@@ -4,15 +4,15 @@ on: push
 
 jobs:
   ftp-deploy:
-    name: SFTP Deploy
+    name: FTP Deploy
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
       with:
         fetch-depth: 2
-    - name: SFTP Deploy
+    - name: FTP Deploy
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
-        ftp-server: sftp://ssh.monkeyttack.net
+        ftp-server: ftp://ftp.monkeyttack.net
         ftp-username: monkeyttack.net
         ftp-password: ${{ secrets.FTP_PASSWORD }}

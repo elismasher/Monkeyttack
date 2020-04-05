@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+
+/*--- Basics ---*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body,
+input,
+select,
+textarea {
+    color: #6e6e6e;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
+    line-height: 1.75em;
+}
+
+
+h2 {
+    font-size: 1.75em;
+    color: #5b5b5b;
+    font-weight: 700;
+    letter-spacing: 0.125em;
+    line-height: 1.75em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #5b5b5b;
+    font-weight: 700;
+    letter-spacing: 0.125em;
+    line-height: 1.65em;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+h5 {
+    top: 0;
+    font-size: 1.3em;
+    line-height: 1.4em;
+}
+
+sub {
+    font-size: 0.8em;
+    position: relative;
+    top: 0.5em;
+}
+
+sup {
+    font-size: 0.8em;
+    position: relative;
+    top: -0.5em;
+}
+
+hr {
+    border: 0;
+    border-top: solid 1px rgba(224, 224, 224, 0.75);
+    margin-bottom: 1.5em;
+}
+
+blockquote {
+    border-left: solid 0.5em rgba(224, 224, 224, 0.75);
+    font-style: italic;
+    padding: 1em 0 1em 2em;
+}

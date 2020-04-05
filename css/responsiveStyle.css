@@ -1,0 +1,392 @@
+/* Wide */
+@media screen and (max-width: 1680px) {
+    
+    /*--- Header ---*/
+    #header {
+        padding: 8em 0 16em 0;
+    }
+
+    #header h1 {
+        font-size: 2.25em;
+    }
+
+    #header p {
+        font-size: 1.25em;
+        line-height: 1.65em;
+    }
+    
+    /*-- Persönliche Daten --*/
+    header.major p {
+        font-size: 0.8em;
+        line-height: 1.65em;
+    }
+    
+    header.major h2 {
+        font-size: 2.05em;
+    }
+    
+    p {
+        font-size: 0.8em;
+        line-height: 1.65em;
+    }
+    
+    h3 {
+        font-size: 1.95em;
+    }
+    
+    h5 {
+    font-size: 1.75em;
+    }
+
+
+}
+
+
+
+/* Normal */
+@media screen and (max-width: 1280px) {
+    
+    /*--- Header ---*/
+    #header {
+        background-attachment: scroll, scroll, scroll;
+        background-image: url("../images/top-1600.svg"), url("../images/overlay.png"), url("../images/starsBackground.jpg");
+        background-size: 1600px 230px, auto, cover;
+        padding: 6em 0 12em 0;
+    }
+
+    #header:before {
+        height: calc(100% - 25px);
+    }
+
+    #header:after {
+        height: 25px;
+    }
+
+    #header h1 {
+        font-size: 2em;
+    }
+
+    #header p {
+        font-size: 1.15em;
+    }
+    
+    /*--- Main ---*/
+    #main {
+        padding: 4em 0 3em 0;
+    }
+    
+    /*--- Container ---*/
+    .container {
+        width: 48em;
+    }
+    
+    .container2 {
+        width: 40em;
+    }
+
+    .container.medium {
+        width: 36em;
+    }
+    
+    /*-- Persönliche Daten --*/
+    header.major p {
+        font-size: 0.95em;
+        line-height: 1.45em;
+    }
+    
+    header.major h2 {
+        font-size: 1.8em;
+    }
+    
+    /* Box */
+
+    .box {
+        padding: 2.5em;
+        margin-bottom: 4em;
+    }
+    
+    p {
+        font-size: 0.95em;
+        line-height: 1.45em;
+    }
+    
+    h3 {
+        font-size: 1.7em;
+    }
+    
+    h5 {
+    font-size: 1.5em;
+    }
+    
+    /* greySection */
+
+    #greySection {
+        background-image: url("images/bottom-1600.svg");
+        background-size: 1600px 230px;
+        margin-top: -100px;
+        padding: calc(230px) 0 15.6em 0;
+    }
+
+    #greySection:before {
+        height: calc(230px + 4em);
+    }
+    
+    /* Footer */
+
+    #footer {
+        background-image: url("images/bottom-1600.svg");
+        background-size: 1600px 230px;
+        margin-top: -100px;
+        padding: calc(230px + 4em) 0 6em 0;
+    }
+
+    #footer:before {
+        height: calc(230px + 4em);
+    }
+    
+}
+
+
+@media screen and (max-width: 980px) {
+
+    .container {
+        width: 95%;
+    }
+    
+    .container2 {
+        width: 75%;
+    }
+
+    .container.medium {
+        width: 71.25%;
+    }
+
+}
+
+
+@media screen and (max-width: 840px) {
+
+    .container {
+        width: 95% !important;
+    }
+    
+    .container2 {
+        width: 70% !important;
+    }
+
+}
+
+
+/* Mobile */
+@media screen and (max-width: 736px) {
+    
+    /*--- Header ---*/
+    #header {
+        background-image: url("../images/top-1280.svg"), url("../images/overlay.png"), url("../images/starsBackground.jpg");
+        background-size: 1280px 184px, auto, cover;
+        padding: 3em 0 7em 0;
+    }
+
+    #header:before {
+        height: calc(100% - 20px);
+    }
+
+    #header:after {
+        height: 20px;
+    }
+
+    #header .logo {
+        font-size: 1.5em;
+    }
+
+    #header h1 {
+        font-size: 1.25em;
+    }
+
+    #header p {
+        font-size: 0.9em;
+    }
+    
+    /*--- Main ---*/
+    #main {
+        padding: 2em 0 2em 0;
+    }
+    
+    /*--- Container ---*/
+     .container {
+        width: 90% !important;
+    }
+    
+    .container2 {
+        width: 70% !important;
+    }
+    
+    /* Box */
+
+    .box {
+        padding: 2em;
+        margin-bottom: 2em;
+    }
+    
+    /*-- Persönliche Daten --*/
+    header.major p {
+        font-size: 0.7em;
+        line-height: 1.2em;
+    }
+    
+    header.major h2 {
+        font-size: 1.05em;
+    }
+    
+    p {
+        font-size: 0.7em;
+        line-height: 1.2em;
+    }
+    
+    h3 {
+        font-size: 0.95em;
+    }
+    h5 {
+    font-size: 0.8em;
+    }
+    
+    /* greySection */   
+    
+
+    #greySection {
+        background-image: url("images/bottom-1280.svg");
+        background-size: 1280px 184px;
+        margin-top: -5px;
+        padding: calc(184px) 0 15.6em 0;
+    }
+
+    #greySection:before {
+        height: calc(184px + 2em);
+    }
+    
+    /* Footer */
+
+    #footer {
+        background-image: url("images/bottom-1280.svg");
+        background-size: 1280px 184px;
+        margin-top: -75px;
+        padding: calc(184px + 2em) 0 2em 0;
+    }
+
+    #footer:before {
+        height: calc(184px + 2em);
+    }
+
+    #footer form {
+        padding-bottom: 0;
+    }
+    
+
+}
+
+
+@media (min-width: 640px) {
+	 .blog-card {
+		 flex-direction: row;
+		 max-width: 700px;
+	}
+	 .blog-card .meta {
+		 flex-basis: 40%;
+		 height: auto;
+	}
+	 .blog-card .description {
+		 flex-basis: 60%;
+	}
+	 .blog-card .description:before {
+		 transform: skewX(-3deg);
+		 content: "";
+		 background: #fff;
+		 width: 30px;
+		 position: absolute;
+		 left: -10px;
+		 top: 0;
+		 bottom: 0;
+		 z-index: -1;
+	}
+	 .blog-card.alt {
+		 flex-direction: row-reverse;
+	}
+	 .blog-card.alt .description:before {
+		 left: inherit;
+		 right: -10px;
+		 transform: skew(3deg);
+	}
+	 .blog-card.alt .details {
+		 padding-left: 25px;
+	}
+}
+ 
+
+
+/* Mobile (Portrait) */
+@media screen and (max-width: 480px) {
+    
+    /*--- Header ---*/
+    #header {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    #header br {
+        display: none;
+    }
+    
+    /*--- Main ---*/
+    #main {
+        padding:0;
+    }
+    
+    /*--- Container ---*/
+    .container {
+        width: 100% !important;
+    }
+    
+    .container2 {
+        width: 80% !important;
+    }
+    
+    .box {
+        padding: 2em 1em;
+    }
+    
+    .projects{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+    /* greySection */
+    
+    #greySection {
+        margin-top: -100px;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: 15.6em;
+    }
+
+    #greySection .copyright li {
+        border: 0;
+        display: block;
+        margin: 0;
+        padding: 0.75em 0 0 0;
+    }
+    
+    /* Footer */
+
+    #footer {
+        margin-top: -100px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    #footer .copyright li {
+        border: 0;
+        display: block;
+        margin: 0;
+        padding: 0.75em 0 0 0;
+    }
+}
